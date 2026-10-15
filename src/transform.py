@@ -9,7 +9,7 @@ def clean_employees(employees):
             continue
 
         record = employee.copy()
-        record["bonus"] = round(salary * 0.10, 2)
+        record["bonus"] = round(salary * 0.20, 2)
         cleaned.append(record)
 
     return cleaned
